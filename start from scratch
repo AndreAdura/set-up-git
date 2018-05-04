@@ -1,0 +1,61 @@
+//open the git bash 
+//you can do this later but its better to start clean
+git config --global user.name "YOUR GITHUB NAME"
+git config --global user.email "YOUR EMAIL ADDRESS"
+
+//to see your configuration use list command (optional) 
+git config --list
+
+//check your folder by pwd
+cd YOURDIRECTORY
+
+//initilize will create a git file inside your directory
+git init
+
+//you can check the status with the command
+git status
+//you can clear the screen with the command
+git clear
+
+//to add your files put all your files into the directory and add them
+git add .
+
+//. will add all the files you have
+// you might want to go and add just a file index.php or style.css
+// you can add couple files by putting space on them
+// you can use *.php
+
+// nothing committed yet
+//next step is commit the files
+git commit
+
+// it is the most funny part to get out of line :)
+// whatever you type will be your commit
+// type this is my first commit or whatever you wanna write
+// its just for you
+my first commit
+o yea!
+
+//if you stuck here its normal its the painfull part if you dont know how to exit
+//simple
+:wq
+
+//easier way is git commit -m "my first commit o yea!"
+
+//now create a repo and follow the steps
+git remote add origin YOUR REPO NAME 
+
+//optinal
+git status
+
+//push your files to your repo
+//-u optional
+git push -u origin master
+
+//well done!
+
+
+
+
+
+
